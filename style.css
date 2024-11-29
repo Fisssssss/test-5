@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('path/to/gothampro.woff2') format('woff2'),
+         url('path/to/gothampro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.spinner {
+    /* Стили для спиннера */
+    display: none; /* Скрыт по умолчанию */
+}
+.scroll-indicator {
+    animation: bounce 1s infinite;
+}
